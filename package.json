@@ -1,0 +1,19 @@
+{
+  "name": "speed-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm i && cd packages/first_package && npm i && cd ../second_package && npm i"
+  },
+  "author": "Syler",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.12.18",
+    "known-css-properties": "^0.17.0",
+    "suf": "^1.0.1",
+    "ts-node": "^8.5.4",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.3"
+  }
+}
