@@ -18,9 +18,9 @@ function GenerateBadSass(lines: number) {
     }
   }
 }
-GenerateBadSass(5000);
+GenerateBadSass(1000);
 
-console.log('GENERATE RANDOM SASS');
+console.log('\x1B[1;mGENERATED: random sass\x1B[m');
 
 writeFileSync('src/text.sass', text);
 
